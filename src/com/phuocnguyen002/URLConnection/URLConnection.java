@@ -7,7 +7,7 @@ import java.net.URL;
 public class URLConnection {
 
 	public void urlConnectionTest() throws IOException {
-		URL url = new URL("https://google.com");
+		URL url = new URL("https://github.com/pnguyen215");
 		java.net.URLConnection urlConnection = url.openConnection();
 		InputStream inputStream = urlConnection.getInputStream();
 		int word = inputStream.read();

@@ -1,0 +1,5 @@
+An object of the Server Socket class represents a TCP server socket in Java.
+
+A Server Socket object can accept a connection request from a remote client.
+
+We can use the no-arguments constructor to create an unbound server socket and use its bind() method to bind it to a local port and a local IP address.
