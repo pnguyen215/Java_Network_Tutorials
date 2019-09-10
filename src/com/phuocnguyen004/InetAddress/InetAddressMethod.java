@@ -4,7 +4,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 public class InetAddressMethod {
-	public final String SET_URL = "https://github.com/";
+	public final String SET_URL = "https://github.com";
 
 	public void inetAddressMethod() throws UnknownHostException {
 		InetAddress inetAddress = InetAddress.getByName(SET_URL);
